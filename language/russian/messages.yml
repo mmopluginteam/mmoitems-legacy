@@ -1,0 +1,56 @@
+hands-too-charged: You can't do anything, your hands are too charged.
+spell-on-cooldown: '#progress# &eВы должны подождать &c&l#left# &eсекунд, прежде чем
+  использовать это заклинание.'
+item-on-cooldown: Этот предмет перезаряжается!
+item-command-on-cooldown: Команда этого предмета перезаряжается!
+no-perm: You don't have enough permissions.
+attack-blocked: 'Вы заблокировали #percent#% от урона!'
+attack-dodged: Вы уклонились от атаки!
+not-enough-levels: У вас не хватает уровня, чтобы использовать этот предмет!
+not-enough-perms: You don't have enough permissions to use this.
+not-enough-mana: У вас не хватает маны!
+not-enough-stamina: У вас не хватает стамины!
+not-identified: Вы не можете использовать неидентифицированный предмет.
+wrong-class: У вас неправильный класс!
+successfully-identified: 'Вы успешно идентифицировали #item#&e.'
+gem-stone-applied: Вы успешно уставновили &f#gem#&e в ваш &f#item#&e.
+repaired-item: Вы успешно починили &f#item#&e на &f#amount# &eпрочности.
+gave-item: '&eВыдано &f#item#&e#amount# игроку &f#player#&e.'
+received-item: '&eВы получили &f#item#&e#amount#.'
+cant-update-item: Не удалось обновить этот предмет.
+update-item: Предмет успешно обновлён.
+empty-workbench-first: Пожалуйста, сначала очистите верстак.
+click-advanced-recipe: Нажмите, чтобы посмотреть рецепт.
+no-item: '- Нет Предмета -'
+no-gem-stone-stat: '- Нет Статистики для Самоцвета -'
+back: Назад
+advanced-workbench: Улучшенный Верстак
+advanced-recipes: Улучшенные Рецепты
+next-page: Следующая Страница
+previous-page: Предыдущая Страница
+gems-stats: Статистика Самоцвета
+miss-spell: Вы промахнулись &c#spell#&e.
+not-enough-perms-command: У вас не хватает прав.
+successfully-deconstructed: 'Вы успешно деконструировали #item#&e.'
+not-enough-perms-craft: У вас недостаточно прав, чтобы скрафтить этот предмет.
+gem-stats: Статистика Самоцвета
+attack-parried: Вы парировали атаку!
+gem-stone-broke: Ваш самоцвет &f#gem#&c сломался когда вы пытались поместить его в &f#item#&c.
+broken-item: Ваш предмет сломан, вам нужно починить его.
+item-broke: 'Ваш #item#&c сломался.'
+zero-durability: У вашего предмета нет прочности. Восстановите её, прежде чем использовать
+  этот предмет снова.
+soulbound-restriction: Этот предмет привязан к другому игроку, Вы не можете его использовать!
+cant-bind-item: 'Этот предмет в настоящее время привязан к #player# #level# уровнем персонализации.
+  Сначала тебе придется разорвать эту связь.'
+no-soulbound: Этот предмет ни к кому не привязан.
+cant-bind-stacked: Нельзя привязывать более одного предмета за раз!
+unsuccessful-soulbound: Персонализация не удалась.
+unsuccessful-soulbound-break: Вы не смогли убрать персонализацию.
+low-soulbound-level: 'Этот предмет имеет #level# уровень персонализации. Вам понадобится более высокий уровень персонализации
+  на вашем расходном предмете, чтобы убрать эту связь.'
+successfully-bind-item: Вы успешно привязали ваш &6#item#&e &6#level# &eуровнем персонализации.
+successfully-break-bind: Вы успешно убрали связь с вашего &6#item#&e.
+soulbound-item-lore: '&7//&4Связан с #player#//&4#level# уровнем персонализации'
+soulbound-command-no: Этот предмет ни с кем не связан.
+soulbound-command-info: Ваш предмет связан с &6#player# &6#level# &eуровнем персонализации.

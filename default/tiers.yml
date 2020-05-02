@@ -1,0 +1,119 @@
+# 'name' is used to display the tier in the item lore.
+#
+# 'deconstruct-item' is the drop table for the item
+# that drops when deconstructing an item.
+#
+# Tier IDs (TRASH,COMMON...) are case sensitive.
+
+TRASH:
+    name: '&8&lTRASH'
+    deconstruct-item: {}
+
+COMMON:
+    name: '&7&lCOMMON'
+    deconstruct-item: {}
+UNCOMMON:
+    name: '&8&lUNCOMMON'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    UNCOMMON_WEAPON_ESSENCE: 100,1-1,0
+        lose:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,1-1,0
+RARE:
+    name: '&6&lRARE'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    RARE_WEAPON_ESSENCE: 100,1-1,0
+        lose:
+            coef: 3
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,1-1,0
+VERY_RARE:
+    name: '&e&lVERY RARE'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    VERY_RARE_WEAPON_ESSENCE: 100,1-1,0
+        lose:
+            coef: 3
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,1-1,0
+LEGENDARY:
+    name: '&b&lLEGENDARY'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    LEGENDARY_WEAPON_ESSENCE: 100,1-1,0
+        lose:
+            coef: 4
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,1-1,0
+MYTHICAL:
+    name: '&5&lMYTHICAL'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    MYTHICAL_WEAPON_ESSENCE: 100,1-1,0
+        lose:
+            coef: 5
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,1-1,0
+EPIC:
+    name: '&4&lEPIC'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    EPIC_WEAPON_ESSENCE: 100,1-1,0
+        lose:
+            coef: 6
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,1-1,0
+
+MAGICAL:
+    name: '&2&lMAGICAL'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    MAGICAL_WEAPON_ESSENCE: 100,1-1,0
+        lose:
+            coef: 3
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,1-1,0
+UNIQUE:
+    name: '&c&lUNIQUE'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    UNIQUE_WEAPON_ESSENCE: 100,1-1,0
+        lose:
+            coef: 9
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,1-1,0

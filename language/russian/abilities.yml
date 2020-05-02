@@ -1,0 +1,108 @@
+ability:
+  overload: Перегрузка
+  shulker-missile: Снаряд Шалкера
+  magical-shield: Магический Щит
+  heal: Восстановление
+  fire-meteor: Огненный Метеор
+  leap: Прыжок
+  light-dash: Бросок
+  burn: Поджог
+  starfall: Звездопад
+  wither: Иссушение
+  vampirism: Вампризм
+  shockwave: Ударная Волна
+  sparkle: Искра
+  smite: Молния
+  corrupt: Искажение
+  tnt-throw: Бросок TNT
+  firebolt: Огненный Шар
+  earthquake: Землятрясение
+  stun: Стан
+  swiftness: Ускорение
+  holy-missile: Святой Снаряд
+  black-hole: Черная Дыра
+  slow: Замедление
+  circular-slash: Круговое Рассечение
+  cursed-beam: Проклятый Луч
+  thrust: Колющий Удар
+  heavy-charge: Тяжелый Выпад
+  item-throw: Бросание Предмета
+  corrupted-fangs: Клыки Искажения
+  ice-crystal: Ледяной Кристалл
+  blind: Слепота
+  shock: Шок
+  shadow-veil: Исчезновение
+  poison: Яд
+  blink: Блинк
+  sky-smash: Воздушный Бросок
+  bloodbath: Резня
+  confuse: Сбивание
+  lightning-beam: Удар Молнией
+  arcane-hail: Волшебный Дождь
+  grand-heal: Массовое Исцеление
+  magical-path: Магия Полета
+  burning-hands: Огненные Руки
+  throw-up: Подбрасывание
+  frog-mode: Режим Лягушки
+  firefly: Светлячок
+  bunny-mode: Режим Кролика
+  item-bomb: Бомба
+  bouncy-fireball: Боевой огненный Шар
+  death-mark: Метка Смерти
+  life-ender: Месть Эндера
+  freezing-curse: Проклятие Заморозки 
+  item-bomb: Предметная Бомба
+  freeze: Заморозка
+  blizzard: Снежная Буря
+  tactical-grenade: Тактическая Граната
+  ignite: Поджог
+  rain-of-arrows: Дождь из Стрел
+  eggpocalypse: Яичный Апокалипсис
+  minor-explosion: Небольшой Взрыв
+  regen-ally: Исцеление Союзника
+  contamination: Заражение 
+  corrosion: Коррозия
+  weaken-target: Ослабление Противника
+  chicken-wraith: Куриный Призрак
+  targeted-fireball: Нацеленный огненный Шар
+  magma-fissure: Трещина Магмы  
+  present-throw: Бросание Подарка
+  explosive-turkey: Взрывной Турк
+  frozen-aura: Аура Обморожения
+  snowman-turret: Турель - Снеговик
+  hoearthquake: Глобальная Вскопка
+  arcane-rift: Чародейский Разлом
+modifier:
+  cooldown: Перезарядка
+  mana: Маны
+  stamina: Стамина
+  radius: Радиус
+  damage: Урон
+  effect-duration: Длительность эффекта
+  duration: Длительность
+  power: Сила
+  heal: Восстановление
+  knockback: Отталкивание
+  force: Сила
+  length: Длина
+  amplifier: Усиление
+  drain: Высасывание
+  knock-up: Отталкивание
+  limit: Лимит
+  ignite: Горение
+  range: Радиус
+  amount: Количество
+  jump-force: Сила Прыжка
+  speed: Скорость
+  slow-duration: Длительность замедления
+  slow-amplifier: Усиление замедления
+  inaccuracy: Неточность
+  max-ignite: Максимальная длительность горения
+  extra-damage: Дополнительный урон
+cast-mode:
+  on-hit: При попадании
+  when-hit: При атаке
+  left-click: Левый клик
+  right-click: Правый клик
+  shift-left-click: Шифт + Левый клик
+  shift-right-click: Шифт + Правый клик 

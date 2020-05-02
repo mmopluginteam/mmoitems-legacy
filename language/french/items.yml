@@ -1,0 +1,20 @@
+UNIDENTIFIED_ITEM:
+  name: '&kNon identifié'
+  lore:
+  - '&e&oCet objet est &c&o&ninutilisable&e&o.'
+  - '&e&oJe vais devoir trouver un moyen de l''identifier...'
+BACK:
+  name: Précedent
+  lore: []
+NEXT_PAGE:
+  name: Page suivante
+  lore: []
+PREVIOUS_PAGE:
+  name: Page précedente
+  lore: []
+NO_ITEM:
+  name: '- Aucun objet -'
+  lore: []
+NO_GEM_STONE:
+  name: '- Aucune gemme -'
+  lore: []

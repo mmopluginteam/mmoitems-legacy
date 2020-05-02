@@ -1,0 +1,32 @@
+hands-too-charged: 'Vos mains sont trop chargées ; vous ne pouvez rien faire.'
+spell-on-cooldown: '#progress# &eYou devez attendre #left# seconde#s# avant de lancer ce sort.'
+item-on-cooldown: 'Cet objet est encore en récupération.'
+item-command-on-cooldown: 'La commande de cet objet est en récupération.'
+no-perm: 'Vous n''avez pas la permission.'
+attack-blocked: 'Vous avez bloqué #percent#% des dégats d''attaque!'
+attack-dodged: Vous avez esquivé une attaque.
+not-enough-levels: Vous n'avez pas assez de niveaux pour utiliser cet objet.
+not-enough-perms: Vous n'avez pas la permission pour utiliser cet objet.
+not-enough-mana: Vous n'avez pas assez de mana.
+not-enough-stamina: Vous n'avez pas assez de stamina.
+not-identified: Cet objet n'est pas identifié.
+wrong-class: Vous n'avez pas la bonne classe.
+successfully-identified: 'Vous avez identifié #item#&e.'
+gem-stone-applied: Vous avez appliqué &f#gem#&e sur votre &f#item#&e.
+repaired-item: Vous avez réparé &f#amount# &epoints de durabilité de votre &f#item#&e.
+gave-item: '&f#player# &ea reçu &f#item#&e#amount#.'
+received-item: 'Vous avez reçu &f#item#&e#amount#.'
+cant-update-item: Votre objet n'a pas pu être mis à jour.
+update-item: Objet mis à jour.
+empty-workbench-first: Veuillez d'avord vider la table de craft.
+click-advanced-recipe: Cliquez pour voir la recette.
+no-item: '- Aucun objet -'
+no-gem-stone-stat: '- Aucune stat -'
+back: Précédent
+advanced-workbench: Table de craft avancée
+advanced-recipes: Recettes avancées
+next-page: Page suivante
+previous-page: Page précédente
+gem-stats: Gemmes
+miss-spell: Vous avez raté &c#spell#&e.
+not-enough-perms-craft: Vous n'avez pas la permission de fabriquer cet objet.

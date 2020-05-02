@@ -1,0 +1,35 @@
+NATURES_GIFT:
+  material: SAPLING
+  disable-interaction: true
+  name: '&9Magical Catalyst'
+  lore:
+  - '&7No one knows where it was'
+  - '&7found. Hold it in your hands'
+  - '&7to &bdouble &7your regeneration!'
+  magic-damage: 10=20
+  required-level: 4.0
+  required-class:
+  - Wizard
+  - Paladin
+  hide-enchants: true
+  enchants:
+    durability: 1
+  regeneration: 90.0=110.0
+WARRIOR_AMULET:
+  material: INK_SACK
+  durability: 8.0
+  name: '&fWarrior Amulet'
+  disable-crafting: true
+  hide-enchants: true
+  enchants:
+    durability: 1
+  damage-reduction: 5.0
+  regeneration: 8.0
+FORGOTTEN_IDOL:
+  material: GOLD_NUGGET
+  enchants:
+    DURABILITY: 1
+  hide-enchants: true
+  name: '&eForgotten Idol'
+  required-level: 19.0
+  weapon-damage: 30.0=40.0

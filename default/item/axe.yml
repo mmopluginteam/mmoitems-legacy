@@ -1,0 +1,53 @@
+BUTCHER_AXE:
+  material: IRON_AXE
+  name: '&cButcher&f''s Axe'
+  tier: '&8Uncommon'
+  critical-strike-chance: 5.0
+  critical-strike-power: 248.0
+  attack-damage: 6.0
+  attack-speed: 0.7
+  ability:
+    right-click:
+      type: CIRCULAR_SLASH
+      mode: RIGHT_CLICK
+      knockback: 3.0
+      cooldown: 39.0
+      damage: 6.0
+  element:
+    darkness:
+      damage: 3.2
+  gem-sockets: 1.0
+  craft-enabled: true
+  craft:
+  - IRON_BLOCK IRON_BLOCK AIR
+  - IRON_BLOCK STICK AIR
+  - AIR STICK AIR
+BONE_CRACKER:
+  material: STONE_AXE
+  disable-repairing: true
+  disable-enchanting: true
+  unbreakable: false
+  two-handed: true
+  tier: COMMON
+  armor-toughness: 2.0
+  gem-sockets: 1.0
+  name: '&fBone Cracker'
+  attack-damage: 10.0=12.0
+  attack-speed: 0.4=0.5
+  required-level: 4.0
+  durability: 10.0=100.0
+SKULL_BREAKER:
+  material: IRON_AXE
+  attack-damage: 16.0=18.0
+  attack-speed: 0.3=0.4
+  name: '&f&lSKULL BREAKER'
+  tier: COMMON
+  two-handed: true
+  movement-speed: -0.02
+  lore:
+  - '&7Its large blade &cslow&7 its targets'
+  - '&7when smashing it on their skull.'
+  required-level: 9.0
+  required-class:
+  - Brute
+  - Warrior

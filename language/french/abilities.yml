@@ -1,0 +1,60 @@
+ability:
+  overload: Surchage
+  shulker-missile: Missile de Shulker
+  magical-shield: Ecu magique
+  heal: Soins
+  fire-meteor: Météorite
+  leap: Bond
+  light-dash: Dash léger
+  burn: Embrasement
+  starfall: Court-circuit
+  wither: Wither
+  vampirism: Vol de vie
+  shockwave: Onde de choc
+  smite: 'Châtiment'
+  sparkle: Etincelle
+  corrupt: Dépravation
+  tnt-throw: Lancer de TNT
+  firebolt: Boule de feu
+  earthquake: Tremblement de terre
+  stun: Etourdissement
+  swiftness: Agilité
+  holy-missile: Projectile béni
+  black-hole: Trou noir
+  slow: Ralentissement
+  circular-slash: Attaque circulaire
+  cursed-beam: Projectile maudit
+  heavy-charge: Charge puissante
+  thrust: 'Coup d''estoc'
+  item-throw: 'Lancer d''objet'
+  corrupted-fangs: Crocs maudits
+  ice-crystal: Crystal de glace
+  blind: Aveuglement
+  shock: Choc
+  shadow-veil: Voile ténébreuse
+  poison: Poison
+  blink: Téléportation
+  sky-smash: Uppercut
+  bloodbath: Bain de sang
+  confuse: Confusion
+  hoearthquake: 'Trembl''houement de terre'
+modifier:
+  damage: Dégats
+  mana: Mana
+  stamina: Stamina
+  cooldown: Récupération
+  radius: Rayon
+  duration: Durée
+  effect-duration: 'Durée d''effet'
+  power: Puissance
+  heal: Soin
+  knockback: Recul
+  force: Force
+  length: Longueur
+  amplifier: 'Puissance d''effet'
+  drain: Drain
+  knock-up: Recul
+  limit: Limite
+  ignite: Enflammement
+  range: Portée
+  amount: Quantité

@@ -1,0 +1,18 @@
+GOLD_COIN:
+  material: GOLD_NUGGET
+  name: '&fGold Coin'
+  lore:
+  - '&7A very shiny gold coin.'
+  enchants:
+    DURABILITY: 1
+  hide-enchants: true
+  disable-crafting: true
+SILVER_COIN:
+  material: IRON_NUGGET
+  name: '&fSilver Coin'
+  lore:
+  - '&7A very shiny silver coin.'
+  enchants:
+    DURABILITY: 1
+  hide-enchants: true
+  disable-crafting: true

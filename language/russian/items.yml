@@ -1,0 +1,33 @@
+UNIDENTIFIED_ITEM:
+  name: '&kНеидентифицированный предмет'
+  lore:
+  - '&e&oЭтот предмет &c&o&неидентифицирован&e&o.'
+  - '&e&oВам нужно найти способ, чтобы идентифицировать его.'
+BACK:
+  name: Назад
+  lore: []
+NEXT_PAGE:
+  name: Следующая Страница
+  lore: []
+PREVIOUS_PAGE:
+  name: Предыдущая Страница
+  lore: []
+NO_ITEM:
+  name: '- Не Предмета -'
+  lore: []
+NO_GEM_STONE_STAT:
+  name: '- Нет Статистики Самоцвета -'
+  lore: []
+NO_GEM_STONE:
+  name: '- Свободный Слот для Самоцвета -'
+  lore: []
+NO_TYPE:
+  name: '- Не Типа -'
+  lore: []
+TYPE_DISPLAY:
+  name: '#type# &8(Нажмите для просмотра)'
+  lore:
+  - '&7Существует &6#recipes#&7 доступных рецептов.'
+RECIPE_LIST:
+  name: Улучшенные Рецепты
+  lore: []

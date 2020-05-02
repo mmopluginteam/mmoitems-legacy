@@ -1,0 +1,233 @@
+SANDWITCH:
+  material: BREAD
+  name: '&cSand&6witch'
+  restore:
+    health: 0
+    food: 5
+    saturation: 0
+  effects:
+    POISON: 10,2
+  lore:
+  - '&7Are you really that hungry?!'
+  consume-cooldown: 15
+ROCK:
+  material: COBBLESTONE
+  name: '&fRock'
+  lore:
+  - '&7Use it to sharpen your weapons,'
+  - '&7or &ndamage&7 your enemies.'
+  tier: TRASH
+  consume-cooldown: 3
+  repair: 3.0
+  ability:
+    right-click:
+      type: ITEM_THROW
+      mode: RIGHT_CLICK
+      damage: 2.0
+      cooldown: 3
+IDENT_SCROLL:
+  material: PAPER
+  name: '&fScroll of Identification'
+  tier: '&8Uncommon'
+  can-identify: true
+  craft-enabled: true
+  craft:
+  - AIR AIR AIR
+  - PAPER DIAMOND PAPER
+  - AIR AIR AIR
+  inedible: true
+ITEM_CRUSHER:
+  material: IRON_AXE
+  required-level: 3.0
+  can-deconstruct: true
+  name: '&f&lItem Crusher'
+RECALL_POTION:
+  material: POTION
+  hide-potion-effects: true
+  name: '&9Recall Potion'
+  lore:
+  - '&7Brings you back home.'
+  potion-color: 100 100 255
+  commands:
+    '1':
+      command: spawn
+      cooldown: 10.0
+  consume-cooldown: 60.0
+FIREBALL_SCROLL:
+  material: PAPER
+  consume-cooldown: 30.0
+  required-level: 15.0
+  tier: MAGICAL
+  ability:
+    right-click:
+      type: FIREBOLT
+      mode: RIGHT_CLICK
+      damage: 5.0
+      cooldown: 0.0
+      ignite: 3.0
+  name: '&cFireball Scroll I'
+FIREBALL_SCROLL_II:
+  material: PAPER
+  consume-cooldown: 25.0
+  required-level: 17
+  tier: MAGICAL
+  ability:
+    right-click:
+      type: FIREBOLT
+      mode: RIGHT_CLICK
+      damage: 10.0
+      cooldown: 0.0
+      ignite: 5.0
+  name: '&cFireball Scroll II'
+FIREBALL_SCROLL_III:
+  material: PAPER
+  consume-cooldown: 20.0
+  required-level: 20.0
+  tier: MAGICAL
+  ability:
+    right-click:
+      type: FIREBOLT
+      mode: RIGHT_CLICK
+      damage: 15.0
+      cooldown: 0.0
+      ignite: 7.0
+  name: '&cFireball Scroll III'
+APPLE_OF_DISCORD:
+  material: GOLDEN_APPLE
+  durability: 1.0
+  name: '&6[ Apple of Discord ]'
+  required-level: 4.0
+  restore:
+    health: 1.0
+    food: 15.0
+    saturation: 1.0
+  consume-cooldown: 50.0
+  effects:
+    ABSORPTION: 40.0,2
+    REGENERATION: 40.0,2
+    SPEED: 40.0,2
+SHARP_FLINT:
+  material: FLINT
+  name: '&fSharp Flint'
+  tier: COMMON
+  repair: 20.0
+DEATH_STEW:
+  material: MUSHROOM_SOUP
+  name: '&fDeath Soup'
+  lore:
+  - '&8&oDon''t you dare drinking that...'
+  tier: UNIQUE
+  effects:
+    HARM: 1.0,100
+KARTOFFELSALAT:
+  material: RABBIT_STEW
+  name: '&9Kartoffelsalat'
+  tier: COMMON
+  restore-stamina: 10.0
+  restore:
+    food: 3.0
+    saturation: 10.0
+  consume-cooldown: 30.0
+  lore:
+  - '&7Very punchy, yet hard to finish.'
+LARGE_HEALTH_POTION:
+  material: SKULL_ITEM
+  durability: 3.0
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFlN2ViMmU0NjFlOTZlNjMxY2JhMGMwY2RhYTU0NDg4MDYzMDJlZGFlOTFiNjFkYWZjMjgxYWU1ODRkOCJ9fX0
+  name: '&fLarge Health Potion'
+  consume-cooldown: 10.0
+  restore:
+    health: 10.0
+  consume-sound: ENTITY_GENERIC_DRINK
+LARGE_MANA_POTION:
+  material: SKULL_ITEM
+  durability: 3.0
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmNmRjNjdjZTc1YjcyMjJhYzM5ZTA1MzZlMDkwNzI0OWY4NTUxNmVmZDEzODViZWM5MGJlMzNkZDUzZGUwNyJ9fX0
+  name: '&fLarge Mana Potion'
+  restore-mana: 30.0=40.0
+  consume-cooldown: 15.0
+  consume-sound: ENTITY_GENERIC_DRINK
+TACO:
+  material: SKULL_ITEM
+  durability: 3.0
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ5ZDNkODg5Y2ZmNjU1YzYyMjgzNDE4NDU1MjA1YjAzYWU3N2ZmYjdlZTE4ZGQwM2FjMGE0ZmZiODk1NjE1YiJ9fX0
+  name: '&fTaco'
+  restore:
+    health: 3.0
+    food: 8.0
+    saturation: 10.0
+  consume-cooldown: 2.0
+  lore:
+  - '&7&oA hot & tasty taco!'
+BURGER:
+  material: SKULL_ITEM
+  durability: 3.0
+  consume-cooldown: 3.0
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUwMzkxYjEzODNkOWVmOWU2ZTdiZjVmODJkMWNmODgyZDgxZTJiMDA0ZGUzNjlmNzI5ZWRhMDRiMmVhNjNkMyJ9fX0
+  restore:
+    health: 4.0
+    food: 10.0
+    saturation: 9.0
+  restore-stamina: 30.0
+  name: '&fTasty Burger'
+  lore:
+  - '&7&oMmmmh, yummy!'
+WEIRD_CANDY_BAG:
+  material: SKULL_ITEM
+  durability: 3.0
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdmNTA0Y2RiZjViMjExMjFiODIxODUyOGRjZTU2NzUwNWQ0NTY3ZDdlNzJjZDQzYTQ2M2NkNTFjODAxM2E2In19fQ
+  name: '&9Weird Candy Bag'
+  consume-cooldown: 3.0
+  restore:
+    food: 4.0
+  effects:
+    CONFUSION: 30.0,1
+SUSHI_ROLL:
+  material: SKULL_ITEM
+  durability: 3.0
+  skull-texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVlYzc2NDBlNDMyNDBjODE2N2IxNjc3ZWFiZmZhYWQ5ZjYyODA2Y2NiZTI2NzMyNGM5N2NlYjcyOWQzMDNhIn19fQ
+  name: '&fSushi Roll'
+  lore:
+  - '&7&oSushis are leggit the'
+  - '&7&obest food on Earth.'
+  consume-cooldown: 0.5
+  restore:
+    health: 1.0
+  effects:
+    SPEED: 1.0,1
+SOULBINDER1:
+  material: EYE_OF_ENDER
+  name: '&fApprentice Soulbinder'
+  disable-interaction: true
+  soulbound-level: 1.0
+  soulbinding-chance: 70.0
+SOULCRUSHER1:
+  material: ENDER_PEARL
+  name: '&fNovice Soulcrusher'
+  disable-interaction: true
+  soulbound-level: 1.0
+  soulbound-break-chance: 30.0
+SOULBINDER2:
+  material: EYE_OF_ENDER
+  name: '&fIntermediate Soulbinder'
+  disable-interaction: true
+  soulbound-level: 2.0
+  soulbinding-chance: 80.0
+SOULCRUSHER2:
+  material: ENDER_PEARL
+  name: '&fIntermediate Soulcrusher'
+  disable-interaction: true
+  soulbound-level: 2.0
+  soulbound-break-chance: 40.0
+SOULBINDER3:
+  material: EYE_OF_ENDER
+  name: '&fArcane Soulbinder'
+  disable-interaction: true
+  soulbound-level: 3.0
+  soulbinding-chance: 90.0
+SOULCRUSHER3:
+  material: ENDER_PEARL
+  name: '&fArcane Soulcrusher'
+  disable-interaction: true
+  soulbound-level: 3.0
+  soulbound-break-chance: 50.0

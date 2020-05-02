@@ -1,0 +1,165 @@
+
+# Default item types. These cannot be removed. They
+# may be used as 'parents' to create new item types
+# which will behave just like another item type. Parents
+# generate their own config file at /language/item_type.yml
+
+# Used as reference when using /mmoitems commands
+SWORD:
+
+    # The display parameter is used to display the item in both
+    # the item brower and the recipe list when shifting a
+    # workbench. You can use durability for custom textures.
+    display: IRON_SWORD:0
+    
+    # Name displayed in the item lore.
+    name: 'Sword'
+
+DAGGER:
+    display: IRON_SWORD
+    name: 'Dagger'
+
+SPEAR:
+    display: STICK
+    name: 'Spear'
+
+HAMMER:
+    display: IRON_SPADE
+    name: 'Hammer'
+
+GAUNTLET:
+    display: IRON_BARDING
+    name: 'Gauntlet'
+
+WHIP:
+    display: LEASH
+    name: 'Whip'
+
+STAFF:
+    display: STICK
+    name: 'Staff'
+
+BOW:
+    display: BOW
+    name: 'Bow'
+
+CROSSBOW:
+    display: WOOD_PICKAXE
+    name: 'Crossbow'
+
+MUSKET:
+    display: IRON_BARDING
+    name: 'Musket'
+
+LUTE:
+    display: GOLD_BARDING
+    name: 'Lute'
+
+CATALYST:
+    display: DIAMOND
+    name: 'Catalyst'
+
+OFF_CATALYST:
+    display: DIAMOND
+    name: 'Catalyst'
+
+ARMOR:
+    display: GOLD_CHESTPLATE
+    name: 'Armor'
+
+TOOL:
+    display: IRON_PICKAXE
+    name: 'Tool'
+
+CONSUMABLE:
+    display: APPLE
+    name: 'Consumable'
+
+MISCELLANEOUS:
+    display: WATER_BUCKET
+    name: 'Miscellaneous'
+
+GEM_STONE:
+    display: EMERALD
+    name: 'Gem Stone'
+
+# Default subtypes
+GREATSWORD:
+    display: IRON_SWORD
+    name: 'Greatsword'
+    parent: 'SWORD'
+ 
+WAND:
+    display: STICK
+    name: 'Wand'
+    parent: 'STAFF'
+
+LONG_SWORD:
+    display: IRON_SWORD
+    name: 'Long Sword'
+    parent: 'SWORD'
+
+KATANA:
+    display: IRON_SWORD
+    name: 'Katana'
+    parent: 'SWORD'
+    
+AXE:
+    display: IRON_AXE
+    name: 'Axe'
+    parent: 'SWORD'
+    
+GREATAXE:
+    display: IRON_AXE
+    name: 'Greataxe'
+    parent: 'SWORD'
+    
+HALBERD:
+    display: IRON_AXE
+    name: 'Halberd'
+    parent: 'SWORD'
+    
+LANCE:
+    display: STICK
+    name: 'Lance'
+    parent: 'SPEAR'
+    
+GREATHAMMER:
+    display: IRON_AXE
+    name: 'Greathammer'
+    parent: 'HAMMER'
+    
+GREATSTAFF:
+    display: STICK
+    name: 'Greatstaff'
+    parent: 'HAMMER'
+    
+STAVE:
+    display: IRON_SPADE
+    name: 'Stave'
+    parent: 'HAMMER'
+    
+TOME:
+    display: BOOK
+    name: 'Tome'
+    parent: 'CATALYST'
+    
+TALISMAN:
+    display: GOLD_NUGGET
+    name: 'Talisman'
+    parent: 'CATALYST'
+    
+GREATBOW:
+    display: BOW
+    name: 'Greatbow'
+    parent: 'BOW'
+    
+SHIELD:
+    display: SHIELD
+    name: 'Shield'
+    parent: CATALYST
+    
+MATERIAL:
+    display: PAPER
+    name: 'Material'
+    parent: 'MISCELLANEOUS'
